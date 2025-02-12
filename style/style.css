@@ -441,3 +441,111 @@ footer .footer-link{
 /*************************************************Footer Section***********************/
 
 
+
+/*****************************************************************************************/
+/*************************************************About***********************/
+/****************************************************************************************/
+
+
+
+/*************************************************About Section***********************/
+
+
+
+/* About Section */
+#about {
+  padding: 60px 0;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+}
+
+.about-list li {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.about-list i {
+  color: #007bff;
+  margin-right: 8px;
+}
+
+/* Mission Section */
+#mission {
+  padding: 50px 0;
+  background: white;
+}
+
+/* Team Section */
+#team {
+  padding: 50px 0;
+}
+
+.team-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  width: 200px;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Call-to-Action */
+#cta {
+  background: #007bff;
+  color: white;
+  padding: 50px 20px;
+}
+
+#cta .btn-primary {
+  display: inline-block;
+  background: white;
+  color: #007bff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+#cta .btn-primary:hover {
+  background: #f0f0f0;
+}
+
+.row .fungtai {
+  display: inline-block; /* Allows transform to work */
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.row .fungtai:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+
+/*************************************************About Section***********************/
+
+
+/*****************************************************************************************/
+/*************************************************About***********************/
+/****************************************************************************************/
