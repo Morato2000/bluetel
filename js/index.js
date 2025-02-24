@@ -56,3 +56,43 @@ document.addEventListener("DOMContentLoaded", function () {
 
     showTestimonial(currentIndex);
   });   
+
+
+// Coverage slider
+let slideIndex = 0;
+let slides = document.querySelectorAll(".slides");
+let dots = document.querySelectorAll(".dot");
+
+// Function to display the correct slide
+function showSlides() {
+    // Hide all slides
+    slides.forEach(slide => {
+        slide.style.opacity = "0";
+        slide.style.position = "absolute"; // Keep them stacked on top of each other
+    });
+
+    // Remove active class from all dots
+    dots.forEach(dot => dot.classList.remove("active"));
+
+    // Move to the next slide
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }
+
+    // Show the current slide
+    slides[slideIndex - 1].style.opacity = "1";
+    slides[slideIndex - 1].style.position = "relative"; // Only active slide is in normal flow
+    dots[slideIndex - 1].classList.add("active");
+
+    // Repeat the function every 7 seconds
+    setTimeout(showSlides, 5000);
+}
+
+// Function for manual slide navigation
+function currentSlide(n) {
+    slideIndex = n - 1; // Adjust index
+    showSlides();
+}
+
+// Initialize slideshow
+showSlides();
+
