@@ -1,818 +1,1221 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blueltel-co.com</title>
-<!---Links-->
-<link rel="stylesheet" href="style/style.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-</head>
-<body>
+    <!---Links-->
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
     <!--==================================================-->
-<!----------------- Start Header menu ------------------>
-<!--==================================================-->
+    <!----------------- Start Header menu ------------------>
+    <!--==================================================-->
 
-<div class="container border-none">
-    <header class="fixed-top">
+    <div class="container border-none">
+      <header class="fixed-top">
         <nav class="navbar navbar-expand-lg container">
-          <a href="/" class="navbar-brand">
-            <img src="asset/images/logo.png" alt="logo" class="logo">
+          <a href="/" class="navbar-brand d-flex align-items-center">
+            <img
+              data-aos="flip-left"
+              src="asset/images/logo.png"
+              alt="logo"
+              class="logo me-2"
+            />
+            <span data-aos="fade-right" class="brand-name fw-bold"
+              >Bluetel</span
+            >
           </a>
-      
+
           <!-- Hamburger Button -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-      
+
           <!-- Navbar Links -->
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav text-center">
-              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="Plans.html" class="nav-link">Plans</a></li>
-              <li class="nav-item"><a href="About.html" class="nav-link">About</a></li>
-              <li class="nav-item"><a href="Services.html" class="nav-link">Services</a></li>
-              <li class="nav-item"><a href="Coverage.html" class="nav-link">Coverage</a></li>
-              <li class="nav-item"><a href="Contact.html" class="nav-link">Contact</a></li>
-              <li class="nav-item"><a href="Blog.html" class="nav-link">Blog</a></li>
-      
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul data-aos="fade-down" class="navbar-nav text-center">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="Plans.html" class="nav-link">Plans</a>
+              </li>
+              <li class="nav-item">
+                <a href="About.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="Services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="Coverage.html" class="nav-link">Coverage</a>
+              </li>
+              <li class="nav-item">
+                <a href="Contact.html" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="Blog.html" class="nav-link">Blog</a>
+              </li>
+
               <!-- Login and Sign-up Buttons (only visible in mobile mode) -->
               <li class="nav-item d-lg-none mt-3">
-                <button type="button" class="btn btn-primary w-100 mb-2 "><a class="text-white text-decoration-none" href="Login.html">Login</a></button>
-                <button type="button" class="btn btn-outline-primary w-100"><a class="text-black text-decoration-none" href="Signup.html">Sign up</a></button>
+                <button type="button" class="btn btn-primary w-100 mb-2">
+                  <a class="text-white text-decoration-none" href="Login.html"
+                    >Login</a
+                  >
+                </button>
+                <button type="button" class="btn btn-outline-primary w-100">
+                  <a class="text-black text-decoration-none" href="Signup.html"
+                    >Sign up</a
+                  >
+                </button>
               </li>
             </ul>
           </div>
-      
+
           <!-- Desktop Buttons (hidden on mobile) -->
-          <div class="d-none d-lg-flex">
-            <button type="button" class="btn btn-primary me-2 "><a class="text-white text-decoration-none" href="Login.html">Login</a></button>
-            <button type="button" class="btn btn-outline-primary"><a class="text-black text-decoration-none" href="Signup.html">Sign up</a></button>
+          <div data-aos="fade-left" class="d-none d-lg-flex">
+            <button type="button" class="btn btn-primary me-2">
+              <a class="text-white text-decoration-none" href="Login.html"
+                >Login</a
+              >
+            </button>
+            <button type="button" class="btn btn-outline-primary">
+              <a class="text-black text-decoration-none" href="Signup.html"
+                >Sign up</a
+              >
+            </button>
           </div>
         </nav>
       </header>
-      
-  </div>
+    </div>
+    <!--==================================================-->
+    <!----------- End Header menu ------------------>
+    <!--==================================================-->
 
-<!--==================================================-->
-<!----------- End Header menu ------------------>
-<!--==================================================-->
+    <!--==================================================-->
+    <!----------- Start Plans ------------------>
+    <!--==================================================-->
+    <div class="py-4"></div>
+    <div class="plans mb-4">
+      <img src="asset/images/hero7.jpg" alt="About Us" />
+    </div>
+    <h1 class="plans-text text-center mb-4 fw-bold" data-aos="flip-left">
+      Our Plans
+    </h1>
+    <p class="text-center text-muted fs-5" data-aos="fade-right">
+      Choose the perfect plan for your needs! Whether for personal, business, or
+      shared spaces, our high-speed broadband keeps you connected seamlessly.
+    </p>
 
+    <!-- Broadband Plans -->
+    <div class="container py-5">
+      <h2 class="text-center mb-4 fw-bold" data-aos="flip-left">
+        For Our Broad-Band Users
+      </h2>
+      <p class="text-center text-muted fs-5" data-aos="fade-right">
+        Bluetel’s broadband plans are ideal for personal, family, and business
+        use, offering high-speed connectivity.
+      </p>
 
-
-<!--==================================================-->
-<!----------- Start Plans ------------------>
-<!--==================================================-->
-<div class="py-4"></div>
-<div class="plans mb-4" >
-    <img src="asset/images/hero7.jpg" alt="About Us">
-</div>
-<h1 class="plans-text text-center mb-4 fw-bold">Our Plans</h1>
-<p class="text-center text-muted fs-5"> Choose the perfect plan for your needs! Whether for personal, business, or shared spaces, our high-speed broadband keeps you connected seamlessly.</p>
-
-<!-- Broadband Plans -->
-<div class="container py-5">
-   
-    <h2 class="text-center mb-4 fw-bold">For Our Broad-Band Users</h2>
-    <p class="text-center text-muted fs-5">Bluetel’s broadband plans are ideal for personal, family, and business use, offering high-speed connectivity.</p>
-
-    <div class="text-center mb-4">
+      <div class="text-center mb-4" data-aos="fade-up">
         <nav>
-            <div class="nav nav-tabs justify-content-center">
-                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#monthlyPlans">Plans</button>
-                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#discountPlans">3-Months Discount</button>
-            </div>
+          <div class="nav nav-tabs justify-content-center">
+            <button
+              class="nav-link active"
+              data-bs-toggle="tab"
+              data-bs-target="#monthlyPlans"
+            >
+              Plans
+            </button>
+            <button
+              class="nav-link"
+              data-bs-toggle="tab"
+              data-bs-target="#discountPlans"
+            >
+              3-Months Discount
+            </button>
+          </div>
         </nav>
-    <div class="tab-content">
-        
-        <!-- Monthly Plans -->
-        <div class="tab-pane fade show active" id="monthlyPlans">
-    <div class="row justify-content-center text-center g-4">
-        
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Kpakpando Basic</h5>
+        <div class="tab-content">
+          <!-- Monthly Plans -->
+          <div class="tab-pane fade show active" id="monthlyPlans">
+            <div class="row justify-content-center text-center g-4">
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Kpakpando Basic
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦5,000</h2>
-                    <p class="text-muted mb-4">Perfect for Light User and Small Homes</p>
+                    <p class="text-muted mb-4">
+                      Perfect for Light User and Small Homes
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>50GB (Fair Use Policy)</li>
-                        <li>30 Days</li>
-                        <li>Ideal for Light Browsing and Occasional Streaming</li>
+                      <li>50GB (Fair Use Policy)</li>
+                      <li>30 Days</li>
+                      <li>Ideal for Light Browsing and Occasional Streaming</li>
                     </ul>
-                    <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
-  
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
+              </div>
+
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
                     <h5 class="text-muted text-uppercase mb-3">Agu Standard</h5>
                     <h2 class="display-4 fw-bold mb-4">₦10,000</h2>
-                    <p class="text-muted mb-4">Perfect for Medium Families and Remote Workers</p>
+                    <p class="text-muted mb-4">
+                      Perfect for Medium Families and Remote Workers
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>150GB (Fair Use Policy)</li>
-                        <li>30 Days</li>
-                        <li>Great for Remote Work,Online Classes and Downloads.</li>
+                      <li>150GB (Fair Use Policy)</li>
+                      <li>30 Days</li>
+                      <li>
+                        Great for Remote Work,Online Classes and Downloads.
+                      </li>
                     </ul>
-                   <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
-            </div>
-        </div>
-        </div>
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
                     <h5 class="text-muted text-uppercase mb-3">Eze Premium</h5>
                     <h2 class="display-4 fw-bold mb-4">₦18,000</h2>
-                    <p class="text-muted mb-4">Perfect for Business and Large Families</p>
+                    <p class="text-muted mb-4">
+                      Perfect for Business and Large Families
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>Unlimited</li>
-                        <li>30 Days</li>
-                        <li>Perfect for Large File Transfers, Streaming and Gaming</li>
+                      <li>Unlimited</li>
+                      <li>30 Days</li>
+                      <li>
+                        Perfect for Large File Transfers, Streaming and Gaming
+                      </li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Ekpere Daily Max</h5>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Ekpere Daily Max
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦1,200</h2>
-                    <p class="text-muted mb-4">Perfect for Causal Users and Events Organizers</p>
+                    <p class="text-muted mb-4">
+                      Perfect for Causal Users and Events Organizers
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>Unlimited</li>
-                        <li>1 Day</li>
-                        <li>Affordable high-speed access for a day</li>
+                      <li>Unlimited</li>
+                      <li>1 Day</li>
+                      <li>Affordable high-speed access for a day</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-2 border-primary">
-                <span class="badge bg-primary popular-badge">Popular</span>
-                <div class="card-body text-center">
-                    <h5 class="text-primary text-uppercase mb-3">Akwukwo Weekly Pro</h5>
+              <div class="col-md-4">
+                <div
+                  class="pricing-card card h-100 p-4 border-2 border-primary"
+                >
+                  <span class="badge bg-primary popular-badge">Popular</span>
+                  <div class="card-body text-center">
+                    <h5 class="text-primary text-uppercase mb-3">
+                      Akwukwo Weekly Pro
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦5,000</h2>
-                    <p class="text-muted mb-4">Ideal for Students and Small Business</p>
+                    <p class="text-muted mb-4">
+                      Ideal for Students and Small Business
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>Unlimited</li>
-                        <li>7 Days</li>
-                        <li>Suitable for Study Sessions and Temporary Work</li>
+                      <li>Unlimited</li>
+                      <li>7 Days</li>
+                      <li>Suitable for Study Sessions and Temporary Work</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
-  
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Ofuma 14-Day Plan</h5>
+              </div>
+
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Ofuma 14-Day Plan
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦9,000</h2>
-                    <p class="text-muted mb-4">Perfect for Temporary Residents and Remote Workers</p>
+                    <p class="text-muted mb-4">
+                      Perfect for Temporary Residents and Remote Workers
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>Unlimited</li>
-                        <li>14 Days</li>
-                        <li>Ideal for Short-term Use</li>
+                      <li>Unlimited</li>
+                      <li>14 Days</li>
+                      <li>Ideal for Short-term Use</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Ala Enterprise Max</h5>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Ala Enterprise Max
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦14,000</h2>
-                    <p class="text-muted mb-4">Perfect for Hotels and Large Enterprises</p>
+                    <p class="text-muted mb-4">
+                      Perfect for Hotels and Large Enterprises
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>Unlimited</li>
-                        <li>30 Days</li>
-                        <li>Designed for Heavy Users with High Traffic Demands</li>
+                      <li>Unlimited</li>
+                      <li>30 Days</li>
+                      <li>
+                        Designed for Heavy Users with High Traffic Demands
+                      </li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
+          </div>
 
-    </div>
- </div>
- 
-
-<!-- 3-Months Discount Plans -->
-<div class="tab-pane fade" id="discountPlans">
-    <div class="row justify-content-center text-center g-4">
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-success">
-                <span class="badge bg-success popular-badge">Discounted</span>
-                <div class="card-body">
-                    <h5 class="text-muted text-uppercase mb-3">Kpakpando Basic (3 Months)</h5>
+          <!-- 3-Months Discount Plans -->
+          <div class="tab-pane fade" id="discountPlans">
+            <div class="row justify-content-center text-center g-4">
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Kpakpando Basic (3 Months)
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦12,000</h2>
-                    <p class="text-muted">Save ₦3,000 when you subscribe for 3 months.</p>
+                    <p class="text-muted">
+                      Save ₦3,000 when you subscribe for 3 months.
+                    </p>
                     <ul class="list-unstyled">
-                        <li>150GB</li>
-                        <li>90 Days</li>
-                        <li>Light Browsing and Occasional Streaming</li>
+                      <li>150GB</li>
+                      <li>90 Days</li>
+                      <li>Light Browsing and Occasional Streaming</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-success">
-                <span class="badge bg-success popular-badge">Discounted</span>
-                <div class="card-body">
-                    <h5 class="text-muted text-uppercase mb-3">Agu Standard (3 Months)</h5>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Agu Standard (3 Months)
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦24,000</h2>
-                    <p class="text-muted">Save ₦6,000 when you subscribe for 3 months.</p>
+                    <p class="text-muted">
+                      Save ₦6,000 when you subscribe for 3 months.
+                    </p>
                     <ul class="list-unstyled">
-                        <li>450GB</li>
-                        <li>90 Days</li>
-                        <li>Great for Remote Work, Online Classes, and Downloads</li>
+                      <li>450GB</li>
+                      <li>90 Days</li>
+                      <li>
+                        Great for Remote Work, Online Classes, and Downloads
+                      </li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-success">
-                <span class="badge bg-success popular-badge">Discounted</span>
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Eze Premium (3 Months)</h5>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Eze Premium (3 Months)
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦18,000</h2>
-                    <p class="text-muted">Save ₦10,800 when you subscribe for 3 months.</p>
+                    <p class="text-muted">
+                      Save ₦10,800 when you subscribe for 3 months.
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>Unlimited</li>
-                        <li>90 Days</li>
-                        <li>Perfect for Large File Transfers, Streaming and Gaming</li>
+                      <li>Unlimited</li>
+                      <li>90 Days</li>
+                      <li>
+                        Perfect for Large File Transfers, Streaming and Gaming
+                      </li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-success">
-                <span class="badge bg-success popular-badge">Discounted</span>
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Ala Enterprise Max (3 Months)</h5>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Ala Enterprise Max (3 Months)
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦33,000</h2>
-                    <p class="text-muted mb-4">Save ₦8,400 when you subscribe for 3 months.</p>
+                    <p class="text-muted mb-4">
+                      Save ₦8,400 when you subscribe for 3 months.
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>Unlimited</li>
-                        <li>90 Days</li>
-                        <li>Designed for Heavy Users with High Traffic Demands</li>
+                      <li>Unlimited</li>
+                      <li>90 Days</li>
+                      <li>
+                        Designed for Heavy Users with High Traffic Demands
+                      </li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-
+      </div>
     </div>
-</div>
 
-</div>
-</div>
-</div>
+    <!---Mobile-->
 
-<!---Mobile-->
-
-<div class="container py-5">
-   
-    <h2 class="text-center mb-4 fw-bold">For Our Mobile Data Users</h2>
-    <p class="text-center text-muted fs-5">Mobile data bundles are designed for users who need on-the-go connectivity at affordable prices.</p>
-    <div class="text-center mb-4">
+    <div class="container py-5">
+      <h2 class="text-center mb-4 fw-bold" data-aos="flip-left">
+        For Our Mobile Data Users
+      </h2>
+      <p class="text-center text-muted fs-5" data-aos="fade-right">
+        Mobile data bundles are designed for users who need on-the-go
+        connectivity at affordable prices.
+      </p>
+      <div class="text-center mb-4" data-aos="fade-up">
         <nav>
-            <div class="nav nav-tabs justify-content-center">
-                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#monthlyPlans1">Plans</button>
-                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#discountPlans1">3-Months Discount</button>
-            </div>
+          <div class="nav nav-tabs justify-content-center">
+            <button
+              class="nav-link active"
+              data-bs-toggle="tab"
+              data-bs-target="#monthlyPlans1"
+            >
+              Plans
+            </button>
+            <button
+              class="nav-link"
+              data-bs-toggle="tab"
+              data-bs-target="#discountPlans1"
+            >
+              3-Months Discount
+            </button>
+          </div>
         </nav>
-    <div class="tab-content">
-        
-        <!-- Monthly Plans -->
-        <div class="tab-pane fade show active" id="monthlyPlans1">
-    <div class="row justify-content-center text-center g-4">
-        
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
+        <div class="tab-content">
+          <!-- Monthly Plans -->
+          <div class="tab-pane fade show active" id="monthlyPlans1">
+            <div class="row justify-content-center text-center g-4">
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
                     <h5 class="text-muted text-uppercase mb-3">Okuko Daily</h5>
                     <h2 class="display-4 fw-bold mb-4">₦180</h2>
-                    <p class="text-muted mb-4">Perfect for Students and Low-Income Users</p>
+                    <p class="text-muted mb-4">
+                      Perfect for Students and Low-Income Users
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>1GB</li>
-                        <li>1 Day</li>
-                        <li>Cost-Effective for Quick Browsing</li>
+                      <li>1GB</li>
+                      <li>1 Day</li>
+                      <li>Cost-Effective for Quick Browsing</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
-  
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
+              </div>
+
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
                     <h5 class="text-muted text-uppercase mb-3">Ebele Weekly</h5>
                     <h2 class="display-4 fw-bold mb-4">₦1,000</h2>
                     <p class="text-muted mb-4">Perfect for Causal Users</p>
                     <ul class="list-unstyled feature-list">
-                        <li>7GB</li>
-                        <li>7 Days</li>
-                        <li>Suitable for Moderate Internet Use</li>
+                      <li>7GB</li>
+                      <li>7 Days</li>
+                      <li>Suitable for Moderate Internet Use</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3"> Nkume Monthly</h5>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Nkume Monthly
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦4,500</h2>
                     <p class="text-muted mb-4">Perfect for Moderate Users</p>
                     <ul class="list-unstyled feature-list">
-                        <li>40 GB</li>
-                        <li>30 Days</li>
-                        <li>Ideal for Consistent Daily Browsing</li>
+                      <li>40 GB</li>
+                      <li>30 Days</li>
+                      <li>Ideal for Consistent Daily Browsing</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Udo Family Plan</h5>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Udo Family Plan
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦7,500</h2>
-                    <p class="text-muted mb-4">Perfect for Families and Shared Usage</p>
+                    <p class="text-muted mb-4">
+                      Perfect for Families and Shared Usage
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>100 GB</li>
-                        <li>30 Days</li>
-                        <li>Perfect for Families Sharing Internet</li>
+                      <li>100 GB</li>
+                      <li>30 Days</li>
+                      <li>Perfect for Families Sharing Internet</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-2 border-primary">
-                <span class="badge bg-primary popular-badge">Popular</span>
-                <div class="card-body text-center">
-                    <h5 class="text-primary text-uppercase mb-3">Otutu Flex Mini</h5>
+              <div class="col-md-4">
+                <div
+                  class="pricing-card card h-100 p-4 border-2 border-primary"
+                >
+                  <span class="badge bg-primary popular-badge">Popular</span>
+                  <div class="card-body text-center">
+                    <h5 class="text-primary text-uppercase mb-3">
+                      Otutu Flex Mini
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦450</h2>
                     <p class="text-muted mb-4">Ideal for Short-Term Users</p>
                     <ul class="list-unstyled feature-list">
-                        <li>2.5GB</li>
-                        <li>1 Day</li>
-                        <li>Affordable and Flexible for Daily Use</li>
+                      <li>2.5GB</li>
+                      <li>1 Day</li>
+                      <li>Affordable and Flexible for Daily Use</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
-        </div> 
-    </div>
- </div>
- 
+          </div>
 
-<!-- 3-Months Discount Plans -->
-<div class="tab-pane fade" id="discountPlans1">
-    <div class="row justify-content-center text-center g-4">
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-success">
-                <span class="badge bg-success popular-badge">Discounted</span>
-                <div class="card-body">
-                    <h5 class="text-muted text-uppercase mb-3">Nkume Monthly (3 Months)</h5>
+          <!-- 3-Months Discount Plans -->
+          <div class="tab-pane fade" id="discountPlans1">
+            <div class="row justify-content-center text-center g-4">
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Nkume Monthly (3 Months)
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦10,800</h2>
-                    <p class="text-muted">Save ₦2,700 when you subscribe for 3 months.</p>
+                    <p class="text-muted">
+                      Save ₦2,700 when you subscribe for 3 months.
+                    </p>
                     <ul class="list-unstyled">
-                        <li>120 GB</li>
-                        <li>90 Days</li>
-                        <li>Ideal for Consistent Daily Browsing</li>
+                      <li>120 GB</li>
+                      <li>90 Days</li>
+                      <li>Ideal for Consistent Daily Browsing</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-success">
-                <span class="badge bg-success popular-badge">Discounted</span>
-                <div class="card-body">
-                    <h5 class="text-muted text-uppercase mb-3">Udo Family Plan (3 Months)</h5>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Udo Family Plan (3 Months)
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦18,000</h2>
-                    <p class="text-muted">Save ₦4,500 when you subscribe for 3 months.</p>
+                    <p class="text-muted">
+                      Save ₦4,500 when you subscribe for 3 months.
+                    </p>
                     <ul class="list-unstyled">
-                        <li>300 GB</li>
-                        <li>90 Days</li>
-                        <li>Perfect for Families Sharing Internet</li>
+                      <li>300 GB</li>
+                      <li>90 Days</li>
+                      <li>Perfect for Families Sharing Internet</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-
+      </div>
     </div>
-</div>
 
-</div>
-</div>
-</div>
-
-<!--Night Plans-->
-<div class="container py-5">
-   
-    <h2 class="text-center mb-4 fw-bold">For Our Night Data Users</h2>
-    <p class="text-center text-muted fs-5">These plans are perfect for night owls who prefer browsing and downloading during off-peak hours (12 AM – 6 AM)</p>
-    <div class="text-center mb-4">
+    <!--Night Plans-->
+    <div class="container py-5">
+      <h2 class="text-center mb-4 fw-bold" data-aos="flip-left">For Our Night Data Users</h2>
+      <p class="text-center text-muted fs-5" data-aos="fade-right">
+        These plans are perfect for night owls who prefer browsing and
+        downloading during off-peak hours (12 AM – 6 AM)
+      </p>
+      <div class="text-center mb-4" data-aos="fade-up">
         <nav>
-            <div class="nav nav-tabs justify-content-center">
-                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#monthlyPlans2">Plans</button>
-                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#discountPlans2">3-Months Discount</button>
-            </div>
+          <div class="nav nav-tabs justify-content-center">
+            <button
+              class="nav-link active"
+              data-bs-toggle="tab"
+              data-bs-target="#monthlyPlans2"
+            >
+              Plans
+            </button>
+            <button
+              class="nav-link"
+              data-bs-toggle="tab"
+              data-bs-target="#discountPlans2"
+            >
+              3-Months Discount
+            </button>
+          </div>
         </nav>
-    <div class="tab-content">
-        
-        <!-- Monthly Plans -->
-        <div class="tab-pane fade show active" id="monthlyPlans2">
-    <div class="row justify-content-center text-center g-4">
-        
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
+        <div class="tab-content">
+          <!-- Monthly Plans -->
+          <div class="tab-pane fade show active" id="monthlyPlans2">
+            <div class="row justify-content-center text-center g-4">
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
                     <h5 class="text-muted text-uppercase mb-3">Mgbede Saver</h5>
                     <h2 class="display-4 fw-bold mb-4">₦450</h2>
-                    <p class="text-muted mb-4">Perfect for Students and Light Downloads</p>
+                    <p class="text-muted mb-4">
+                      Perfect for Students and Light Downloads
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>2GB</li>
-                        <li>7 Days</li>
-                        <li>Cost-Effective for Light Nighttime Browsing</li>
+                      <li>2GB</li>
+                      <li>7 Days</li>
+                      <li>Cost-Effective for Light Nighttime Browsing</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
-  
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Nkwo Power Pack</h5>
+              </div>
+
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Nkwo Power Pack
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦1,800</h2>
-                    <p class="text-muted mb-4">Perfect for Night Workers and Heavy Users</p>
+                    <p class="text-muted mb-4">
+                      Perfect for Night Workers and Heavy Users
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>15GB</li>
-                        <li>30 Days</li>
-                        <li>Suitable for Heavy Browsing and Gaming</li>
+                      <li>15GB</li>
+                      <li>30 Days</li>
+                      <li>Suitable for Heavy Browsing and Gaming</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-2 border-primary">
-                <span class="badge bg-primary popular-badge">Popular</span>
-                <div class="card-body text-center">
-                    <h5 class="text-primary text-uppercase mb-3">Eze Unlimited Night</h5>
+              <div class="col-md-4">
+                <div
+                  class="pricing-card card h-100 p-4 border-2 border-primary"
+                >
+                  <span class="badge bg-primary popular-badge">Popular</span>
+                  <div class="card-body text-center">
+                    <h5 class="text-primary text-uppercase mb-3">
+                      Eze Unlimited Night
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦3,200</h2>
-                    <p class="text-muted mb-4">Ideal for Freelancers and Power Users</p>
+                    <p class="text-muted mb-4">
+                      Ideal for Freelancers and Power Users
+                    </p>
                     <ul class="list-unstyled feature-list">
-                        <li>Unlimited</li>
-                        <li>30 Days</li>
-                        <li>Unlimited High-Speed Downloads At Night</li>
+                      <li>Unlimited</li>
+                      <li>30 Days</li>
+                      <li>Unlimited High-Speed Downloads At Night</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div> 
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4">
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Abali 1-Day Blast</h5>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Abali 1-Day Blast
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦800</h2>
                     <p class="text-muted mb-4">Perfect for Causal Users</p>
                     <ul class="list-unstyled feature-list">
-                        <li>Unlimited</li>
-                        <li>1 Night</li>
-                        <li>Ideal for Single-Night Downloads</li>
+                      <li>Unlimited</li>
+                      <li>1 Night</li>
+                      <li>Ideal for Single-Night Downloads</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
- </div>
- 
+          </div>
 
-<!-- 3-Months Discount Plans -->
-<div class="tab-pane fade" id="discountPlans2">
-    <div class="row justify-content-center text-center g-4">
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-success">
-                <span class="badge bg-success popular-badge">Discounted</span>
-                <div class="card-body">
-                    <h5 class="text-muted text-uppercase mb-3">Nkwo Power Pack (3 Months)</h5>
+          <!-- 3-Months Discount Plans -->
+          <div class="tab-pane fade" id="discountPlans2">
+            <div class="row justify-content-center text-center g-4">
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Nkwo Power Pack (3 Months)
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦1,800</h2>
-                    <p class="text-muted">Save ₦1,080 when you subscribe for 3 months.</p>
+                    <p class="text-muted">
+                      Save ₦1,080 when you subscribe for 3 months.
+                    </p>
                     <ul class="list-unstyled">
-                        <li>45 GB</li>
-                        <li>90 Days</li>
-                        <li>Suitable for Heavy Browsing and Gaming</li>
+                      <li>45 GB</li>
+                      <li>90 Days</li>
+                      <li>Suitable for Heavy Browsing and Gaming</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="col-md-4">
-            <div class="pricing-card card h-100  p-4 border-success">
-                <span class="badge bg-success popular-badge">Discounted</span>
-                <div class="card-body">
-                    <h5 class="text-muted text-uppercase mb-3">Udo Family Plan (3 Months)</h5>
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Udo Family Plan (3 Months)
+                    </h5>
                     <h2 class="display-4 fw-bold mb-4">₦7,680</h2>
-                    <p class="text-muted">Save ₦1,920 when you subscribe for 3 months.</p>
+                    <p class="text-muted">
+                      Save ₦1,920 when you subscribe for 3 months.
+                    </p>
                     <ul class="list-unstyled">
-                        <li>Unlimited</li>
-                        <li>90 Days</li>
-                        <li>Unlimited High-Speed Downloads At Night</li>
+                      <li>Unlimited</li>
+                      <li>90 Days</li>
+                      <li>Unlimited High-Speed Downloads At Night</li>
                     </ul>
-                     <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-
+      </div>
     </div>
-</div>
 
-</div>
-</div>
-</div>
-
-<!--Hotspot & wifi-->
-<div class="container py-5">
-    <h2 class="text-center mb-4 fw-bold">For Our Hotspot / Public WiFi Data Users</h2>
-    <p class="text-center text-muted fs-5">Bluetel provides hotspot solutions for campuses, co-working spaces, and public areas, ensuring reliable shared connectivity</p>
-    <div class="text-center mb-4">
+    <!--Hotspot & wifi-->
+    <div class="container py-5">
+      <h2 class="text-center mb-4 fw-bold" data-aos="flip-left">
+        For Our Hotspot / Public WiFi Data Users
+      </h2>
+      <p class="text-center text-muted fs-5" data-aos="fade-right">
+        Bluetel provides hotspot solutions for campuses, co-working spaces, and
+        public areas, ensuring reliable shared connectivity
+      </p>
+      <div class="text-center mb-4" data-aos="fade-up">
         <nav>
-            <div class="nav nav-tabs justify-content-center">
-                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#monthlyPlans3">Plans</button>
-                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#discountPlans3">3-Months Discount</button>
-            </div>
+          <div class="nav nav-tabs justify-content-center">
+            <button
+              class="nav-link active"
+              data-bs-toggle="tab"
+              data-bs-target="#monthlyPlans3"
+            >
+              Plans
+            </button>
+            <button
+              class="nav-link"
+              data-bs-toggle="tab"
+              data-bs-target="#discountPlans3"
+            >
+              3-Months Discount
+            </button>
+          </div>
         </nav>
         <div class="tab-content">
-
-            <!-- Monthly Plans -->
-            <div class="tab-pane fade show active" id="monthlyPlans3">
-                <div class="row justify-content-center text-center g-4">
-                    
-                    <div class="col-md-4">
-                        <div class="pricing-card card h-100 p-4">
-                            <div class="card-body text-center">
-                                <h5 class="text-muted text-uppercase mb-3">Ikenga Campus Plan</h5>
-                                <h2 class="display-4 fw-bold mb-4">₦2,700</h2>
-                                <p class="text-muted mb-4">Suitable for shared internet in public spaces</p>
-                                <ul class="list-unstyled feature-list">
-                                    <li>20GB</li>
-                                    <li>30 Days</li>
-                                    <li>Libraries, Student Hubs</li>
-                                </ul>
-                                 <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="pricing-card card h-100 p-4">
-                            <div class="card-body text-center">
-                                <h5 class="text-muted text-uppercase mb-3">Nkwo Market Plan</h5>
-                                <h2 class="display-4 fw-bold mb-4">₦9,000</h2>
-                                <p class="text-muted mb-4">Affordable shared internet for market vendors</p>
-                                <ul class="list-unstyled feature-list">
-                                    <li>100GB</li>
-                                    <li>30 Days</li>
-                                    <li>Public Spaces, Small Vendors</li>
-                                </ul>
-                                 <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="pricing-card card h-100 p-4 border-2 border-primary">
-                            <span class="badge bg-primary popular-badge">Popular</span>
-                            <div class="card-body text-center">
-                                <h5 class="text-primary text-uppercase mb-3">Ogbo Business Pack</h5>
-                                <h2 class="display-4 fw-bold mb-4">₦17,500</h2>
-                                <p class="text-muted mb-4">Ideal for co-working hubs and business clusters</p>
-                                <ul class="list-unstyled feature-list">
-                                    <li>Unlimited</li>
-                                    <li>30 Days</li>
-                                    <li>Co-working Hubs, Shared Spaces</li>
-                                </ul>
-                                 <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="pricing-card card h-100 p-4">
-                            <div class="card-body text-center">
-                                <h5 class="text-muted text-uppercase mb-3">Ebube Hotel Flex</h5>
-                                <h2 class="display-4 fw-bold mb-4">₦45,000</h2>
-                                <p class="text-muted mb-4">High-speed, unlimited connectivity for hotels</p>
-                                <ul class="list-unstyled feature-list">
-                                    <li>Unlimited</li>
-                                    <li>30 Days</li>
-                                    <li>Hotels, Large Shared Spaces</li>
-                                </ul>
-                                 <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
-                            </div>
-                        </div>
-                    </div>
-
+          <!-- Monthly Plans -->
+          <div class="tab-pane fade show active" id="monthlyPlans3">
+            <div class="row justify-content-center text-center g-4">
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Ikenga Campus Plan
+                    </h5>
+                    <h2 class="display-4 fw-bold mb-4">₦2,700</h2>
+                    <p class="text-muted mb-4">
+                      Suitable for shared internet in public spaces
+                    </p>
+                    <ul class="list-unstyled feature-list">
+                      <li>20GB</li>
+                      <li>30 Days</li>
+                      <li>Libraries, Student Hubs</li>
+                    </ul>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
-            </div>
+              </div>
 
-            <!-- 3-Months Discount Plans -->
-            <div class="tab-pane fade" id="discountPlans3">
-                <div class="row justify-content-center text-center g-4">
-
-                    <div class="col-md-4">
-                        <div class="pricing-card card h-100 p-4 border-success">
-                            <span class="badge bg-success popular-badge">Discounted</span>
-                            <div class="card-body">
-                                <h5 class="text-muted text-uppercase mb-3">Ikenga Campus Plan (3 Months)</h5>
-                                <h2 class="display-4 fw-bold mb-4">₦6,480</h2>
-                                <p class="text-muted">Save ₦1,620 when you subscribe for 3 months.</p>
-                                <ul class="list-unstyled">
-                                    <li>60GB</li>
-                                    <li>90 Days</li>
-                                    <li>Libraries, Student Hubs</li>
-                                </ul>
-                                 <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="pricing-card card h-100 p-4 border-success">
-                            <span class="badge bg-success popular-badge">Discounted</span>
-                            <div class="card-body">
-                                <h5 class="text-muted text-uppercase mb-3">Nkwo Market Plan (3 Months)</h5>
-                                <h2 class="display-4 fw-bold mb-4">₦21,600</h2>
-                                <p class="text-muted">Save ₦5,400 when you subscribe for 3 months.</p>
-                                <ul class="list-unstyled">
-                                    <li>300GB</li>
-                                    <li>90 Days</li>
-                                    <li>Public Spaces, Small Vendors</li>
-                                </ul>
-                                 <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="pricing-card card h-100 p-4 border-success">
-                            <span class="badge bg-success popular-badge">Discounted</span>
-                            <div class="card-body">
-                                <h5 class="text-muted text-uppercase mb-3">Ogbo Business Pack (3 Months)</h5>
-                                <h2 class="display-4 fw-bold mb-4">₦42,000</h2>
-                                <p class="text-muted">Save ₦10,500 when you subscribe for 3 months.</p>
-                                <ul class="list-unstyled">
-                                    <li>Unlimited</li>
-                                    <li>90 Days</li>
-                                    <li>Co-working Hubs, Shared Spaces</li>
-                                </ul>
-                                 <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="pricing-card card h-100 p-4 border-success">
-                            <span class="badge bg-success popular-badge">Discounted</span>
-                            <div class="card-body">
-                                <h5 class="text-muted text-uppercase mb-3">Ebube Hotel Flex (3 Months)</h5>
-                                <h2 class="display-4 fw-bold mb-4">₦108,000</h2>
-                                <p class="text-muted">Save ₦27,000 when you subscribe for 3 months.</p>
-                                <ul class="list-unstyled">
-                                    <li>Unlimited</li>
-                                    <li>90 Days</li>
-                                    <li>Hotels, Large Shared Spaces</li>
-                                </ul>
-                                 <a href="http://"><button class="btn btn-custom text-white w-100">Get Started</button></a>
-                            </div>
-                        </div>
-                    </div>
-
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Nkwo Market Plan
+                    </h5>
+                    <h2 class="display-4 fw-bold mb-4">₦9,000</h2>
+                    <p class="text-muted mb-4">
+                      Affordable shared internet for market vendors
+                    </p>
+                    <ul class="list-unstyled feature-list">
+                      <li>100GB</li>
+                      <li>30 Days</li>
+                      <li>Public Spaces, Small Vendors</li>
+                    </ul>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
                 </div>
+              </div>
+
+              <div class="col-md-4">
+                <div
+                  class="pricing-card card h-100 p-4 border-2 border-primary"
+                >
+                  <span class="badge bg-primary popular-badge">Popular</span>
+                  <div class="card-body text-center">
+                    <h5 class="text-primary text-uppercase mb-3">
+                      Ogbo Business Pack
+                    </h5>
+                    <h2 class="display-4 fw-bold mb-4">₦17,500</h2>
+                    <p class="text-muted mb-4">
+                      Ideal for co-working hubs and business clusters
+                    </p>
+                    <ul class="list-unstyled feature-list">
+                      <li>Unlimited</li>
+                      <li>30 Days</li>
+                      <li>Co-working Hubs, Shared Spaces</li>
+                    </ul>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4">
+                  <div class="card-body text-center">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Ebube Hotel Flex
+                    </h5>
+                    <h2 class="display-4 fw-bold mb-4">₦45,000</h2>
+                    <p class="text-muted mb-4">
+                      High-speed, unlimited connectivity for hotels
+                    </p>
+                    <ul class="list-unstyled feature-list">
+                      <li>Unlimited</li>
+                      <li>30 Days</li>
+                      <li>Hotels, Large Shared Spaces</li>
+                    </ul>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
-
-        </div>
-    </div>
-</div>
-
-
-  <!--==================================================-->
-  <!----------- End Plans ------------------>
-  <!--==================================================-->
-  
-
-  <!--==================================================-->
-<!----------- Start Footer ------------------>
-<!--==================================================-->
-
-<!-- Remove the container if you want to extend the Footer to full width. -->
-
-  <!-- Footer -->
-  <footer class="text-center text-lg-start text-white">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row">
-          <!-- Company Info -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Bluetel Communications</h6>
-            <p>Providing reliable, high-speed internet with top-notch customer support. Stay connected with Bluetel Communications.</p>
           </div>
-  
-          <hr class="w-100 clearfix d-md-none" />
-  
-          <!-- Quick Links -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Quick Links</h6>
-            <p><a href="index.html" class="">Home</a></p>
-            <p><a href="Plans.html" class="">Plans & Pricing</a></p>
-            <p><a href="Contact.html" class="">Contact Us</a></p>
-          </div>
-  
-          <hr class="w-100 clearfix d-md-none" />
-  
-          <!-- Contact Information -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-            <p><i class="fas fa-map-marker-alt mr-3"class="footer-link"></i> Abuja, Nigeria</p>
-            <p><i class="fas fa-envelope mr-3"></i> 
-              <a href="mailto:support@bluetel-co.com" class="footer-link">support@bluetel-co.com</a>
-          </p>
-          <p><i class="fas fa-phone mr-3"></i> 
-              <a href="tel:+2348131092222" class="footer-link">+234 8131092222</a>
-          </p>
-          
-          </div>
-  
-          <!-- Social Media -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Follow Us</h6>
-            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fab fa-x"></i></a>
-            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fab fa-instagram"></i></a>
+
+          <!-- 3-Months Discount Plans -->
+          <div class="tab-pane fade" id="discountPlans3">
+            <div class="row justify-content-center text-center g-4">
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Ikenga Campus Plan (3 Months)
+                    </h5>
+                    <h2 class="display-4 fw-bold mb-4">₦6,480</h2>
+                    <p class="text-muted">
+                      Save ₦1,620 when you subscribe for 3 months.
+                    </p>
+                    <ul class="list-unstyled">
+                      <li>60GB</li>
+                      <li>90 Days</li>
+                      <li>Libraries, Student Hubs</li>
+                    </ul>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Nkwo Market Plan (3 Months)
+                    </h5>
+                    <h2 class="display-4 fw-bold mb-4">₦21,600</h2>
+                    <p class="text-muted">
+                      Save ₦5,400 when you subscribe for 3 months.
+                    </p>
+                    <ul class="list-unstyled">
+                      <li>300GB</li>
+                      <li>90 Days</li>
+                      <li>Public Spaces, Small Vendors</li>
+                    </ul>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Ogbo Business Pack (3 Months)
+                    </h5>
+                    <h2 class="display-4 fw-bold mb-4">₦42,000</h2>
+                    <p class="text-muted">
+                      Save ₦10,500 when you subscribe for 3 months.
+                    </p>
+                    <ul class="list-unstyled">
+                      <li>Unlimited</li>
+                      <li>90 Days</li>
+                      <li>Co-working Hubs, Shared Spaces</li>
+                    </ul>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="pricing-card card h-100 p-4 border-success">
+                  <span class="badge bg-success popular-badge">Discounted</span>
+                  <div class="card-body">
+                    <h5 class="text-muted text-uppercase mb-3">
+                      Ebube Hotel Flex (3 Months)
+                    </h5>
+                    <h2 class="display-4 fw-bold mb-4">₦108,000</h2>
+                    <p class="text-muted">
+                      Save ₦27,000 when you subscribe for 3 months.
+                    </p>
+                    <ul class="list-unstyled">
+                      <li>Unlimited</li>
+                      <li>90 Days</li>
+                      <li>Hotels, Large Shared Spaces</li>
+                    </ul>
+                    <a href="http://"
+                      ><button class="btn btn-custom text-white w-100">
+                        Get Started
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      &copy; 2025 Bluetel Communications. All Rights Reserved.
-    </div>
-  </footer>
-  
-  <!-- Footer -->
 
-<!-- End of .container -->
+    <!--==================================================-->
+    <!----------- End Plans ------------------>
+    <!--==================================================-->
 
+    <!--==================================================-->
+    <!----------- Start Footer ------------------>
+    <!--==================================================-->
 
+    <!-- Remove the container if you want to extend the Footer to full width. -->
 
-<!--==================================================-->
-<!----------- End Footer ------------------>
-<!--==================================================-->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Company Info -->
+            <div
+              class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"
+              data-aos="fade-right"
+            >
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Bluetel Communications
+              </h6>
+              <p>
+                Providing reliable, high-speed internet with top-notch customer
+                support. Stay connected with Bluetel Communications.
+              </p>
+            </div>
 
+            <hr class="w-100 clearfix d-md-none" />
 
-<!-- Bootstrap JS and dependencies -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<!---JS-->
-<script src="js/index.js"></script>
-<!--FontAwesome-->
-<script src="https://kit.fontawesome.com/7c73cd64b2.js" crossorigin="anonymous"></script>
-</body>
+            <!-- Quick Links -->
+            <div
+              class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"
+              data-aos="fade-right"
+            >
+              <h6 class="text-uppercase mb-4 font-weight-bold">Quick Links</h6>
+              <p><a href="index.html" class="">Home</a></p>
+              <p><a href="Plans.html" class="">Plans & Pricing</a></p>
+              <p><a href="Contact.html" class="">Contact Us</a></p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Contact Information -->
+            <div
+              class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3"
+              data-aos="fade-left"
+            >
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p>
+                <i class="fas fa-map-marker-alt mr-3" class="footer-link"></i>
+                Abuja, Nigeria
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i>
+                <a href="mailto:support@bluetel-co.com" class="footer-link"
+                  >support@bluetel-co.com</a
+                >
+              </p>
+              <p>
+                <i class="fas fa-phone mr-3"></i>
+                <a href="tel:+2348131092222" class="footer-link"
+                  >+234 8131092222</a
+                >
+              </p>
+            </div>
+
+            <!-- Social Media -->
+            <div
+              class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"
+              data-aos="fade-left"
+            >
+              <h6 class="text-uppercase mb-4 font-weight-bold">Follow Us</h6>
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#"
+                role="button"
+                ><i class="fab fa-x"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        &copy; 2025 Bluetel Communications. All Rights Reserved.
+      </div>
+    </footer>
+
+    <!-- Footer -->
+
+    <!-- End of .container -->
+
+    <!--==================================================-->
+    <!----------- End Footer ------------------>
+    <!--==================================================-->
+
+    <!-- Bootstrap JS and dependencies -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!---JS-->
+    <script src="js/index.js"></script>
+    <!--FontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/7c73cd64b2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
