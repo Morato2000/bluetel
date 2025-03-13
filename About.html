@@ -7,7 +7,7 @@
 <!---Links-->
 <link rel="stylesheet" href="style/style.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!--==================================================-->
@@ -15,46 +15,48 @@
 <!--==================================================-->
 
 <div class="container border-none">
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg container">
-          <a href="/" class="navbar-brand">
-            <img src="asset/images/logo.png" alt="logo" class="logo">
-          </a>
-      
-          <!-- Hamburger Button -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <!-- Navbar Links -->
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav text-center">
-              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="Plans.html" class="nav-link">Plans</a></li>
-              <li class="nav-item"><a href="About.html" class="nav-link">About</a></li>
-              <li class="nav-item"><a href="Services.html" class="nav-link">Services</a></li>
-              <li class="nav-item"><a href="Coverage.html" class="nav-link">Coverage</a></li>
-              <li class="nav-item"><a href="Contact.html" class="nav-link">Contact</a></li>
-              <li class="nav-item"><a href="Blog.html" class="nav-link">Blog</a></li>
-      
-              <!-- Login and Sign-up Buttons (only visible in mobile mode) -->
-              <li class="nav-item d-lg-none mt-3">
-                <button type="button" class="btn btn-primary w-100 mb-2 "><a class="text-white text-decoration-none" href="Login.html">Login</a></button>
-                <button type="button" class="btn btn-outline-primary w-100"><a class="text-black text-decoration-none" href="Signup.html">Sign up</a></button>
-              </li>
-            </ul>
-          </div>
-      
-          <!-- Desktop Buttons (hidden on mobile) -->
-          <div class="d-none d-lg-flex">
-            <button type="button" class="btn btn-primary me-2 "><a class="text-white text-decoration-none" href="Login.html">Login</a></button>
-            <button type="button" class="btn btn-outline-primary"><a class="text-black text-decoration-none" href="Signup.html">Sign up</a></button>
-          </div>
-        </nav>
-      </header>
-      
-  </div>
+  <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg container">
+        <a href="/" class="navbar-brand d-flex align-items-center">
+          <img data-aos="flip-left" src="asset/images/logo.png" alt="logo" class="logo me-2">
+          <span data-aos="fade-right" class="brand-name fw-bold">Bluetel</span>
+        </a>
+        
+    
+        <!-- Hamburger Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul data-aos="fade-down" class="navbar-nav text-center">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="Plans.html" class="nav-link">Plans</a></li>
+            <li class="nav-item"><a href="About.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="Services.html" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="Coverage.html" class="nav-link">Coverage</a></li>
+            <li class="nav-item"><a href="Contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="Blog.html" class="nav-link">Blog</a></li>
+    
+            <!-- Login and Sign-up Buttons (only visible in mobile mode) -->
+            <li class="nav-item d-lg-none mt-3">
+              <button type="button" class="btn btn-primary w-100 mb-2 "><a class="text-white text-decoration-none" href="Login.html">Login</a></button>
+              <button type="button" class="btn btn-outline-primary w-100"><a class="text-black text-decoration-none" href="Signup.html">Sign up</a></button>
+            </li>
+          </ul>
+        </div>
+    
+        <!-- Desktop Buttons (hidden on mobile) -->
+        <div data-aos="fade-left" class="d-none d-lg-flex">
+          <button type="button" class="btn btn-primary me-2 "><a class="text-white text-decoration-none" href="Login.html">Login</a></button>
+          <button type="button" class="btn btn-outline-primary"><a class="text-black text-decoration-none" href="Signup.html">Sign up</a></button>
+        </div>
+      </nav>
+    </header>
+    
+</div>
 
 <!--==================================================-->
 <!----------- End Header menu ------------------>
@@ -65,8 +67,8 @@
 <!--==================================================-->
 <div class="p-5"></div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-center ">
+        <div class="row" data-aos="fade-right">
+            <div class="col-md-6 text-center " >
                 <img src="asset/images/about2.jpg" class="img-fluid rounded-5" style="box-shadow: 0 0 15px #eee;" alt="">
             </div>
             <div class="col-md-6 pt-3">
@@ -94,7 +96,7 @@
 <div class="container my-5">
     <div class="row align-items-center">
         <!-- Left Text Column -->
-        <div class="col-md-6 pt-3">
+        <div class="col-md-6 pt-3" data-aos="fade-right">
             <small class="text-uppercase" style="color: #5976b8;">From</small>
             <h1 class="h2 mb-4 fw-semibold">About Our <span style="color: #5976b8;">Chairman</span></h1>
             <p class="text-secondary" style="line-height: 2;">
@@ -103,7 +105,7 @@
         </div>
 
         <!-- Right Image Column -->
-        <div class="col-md-6 d-flex flex-column align-items-center text-center">
+        <div class="col-md-6 d-flex flex-column align-items-center text-center" data-aos="fade-left">
             <img src="asset/images/sir issac.jpg" class="w-50 rounded mb-3" alt="Chief Sir, Isaac Chuks">
             <h4>Chief Sir, Isaac Chuks</h4>
             <p>
@@ -120,7 +122,7 @@
 
 <!-- Mission & Vision Section -->
 <section id="mission">
-    <div class="container text-center">
+    <div class="container text-center" data-aos="flip-left">
         <h2>Our Mission & Vision</h2>
         <p>
             Mission: To empower connectivity, foster innovation, and enrich lives through unparalleled internet experiences.<br/>
@@ -133,8 +135,8 @@
 <!-- Team Section -->
 <section id="team" class="py-5 bg-light">
     <div class="container text-center">
-        <h2>Meet Our Team</h2>
-        <div class="team-grid">
+        <h2 class="fw-bold mb-5" data-aos="flip-left">Meet Our Team</h2>
+        <div class="team-grid"data-aos="fade-up">
             <div class="team-member">
                 <img src="asset/images/sir issac.jpg" alt="CEO">
                 <h4>Chief Sir, Isaac Chuks</h4>
@@ -153,12 +155,12 @@
         </div>
     </div>
 </section>
-<h1 class="h2 text-center mb-4" style="font-weight: 600;">Why Choose
+<h1 class="h2 text-center my-4" style="font-weight: 600;" data-aos="flip-left">Why Choose
     <span style="color: #5976b8;" class="font-weight-bold">Us?</span></h1>
-<p class="text-secondary" style="line-height: 2;">At Bluetel, we provide fast, reliable, and affordable internet solutions tailored for individuals, families, and businesses. Our commitment to seamless connectivity ensures you stay productive, entertained, and connected at all times. With competitive pricing, excellent customer support, and flexible data plans, Bluetel is the perfect choice for your internet needs. </p>
+<p class="text-secondary" style="line-height: 2;" data-aos="fade-right">At Bluetel, we provide fast, reliable, and affordable internet solutions tailored for individuals, families, and businesses. Our commitment to seamless connectivity ensures you stay productive, entertained, and connected at all times. With competitive pricing, excellent customer support, and flexible data plans, Bluetel is the perfect choice for your internet needs. </p>
 
 <!-- Call-to-Action -->
-<section id="cta" class="text-center">
+<section id="cta" class="text-center" data-aos="zoom-in">
     <h2>Ready to Get Connected?</h2>
     <p>Join thousands of satisfied customers and experience top-notch internet service.</p>
     <a href="contact.html" class="btn-primary">Contact Us</a>
@@ -186,7 +188,7 @@
         <!--Grid row-->
         <div class="row">
           <!-- Company Info -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" data-aos="fade-right">
             <h6 class="text-uppercase mb-4 font-weight-bold">Bluetel Communications</h6>
             <p>Providing reliable, high-speed internet with top-notch customer support. Stay connected with Bluetel Communications.</p>
           </div>
@@ -194,7 +196,7 @@
           <hr class="w-100 clearfix d-md-none" />
   
           <!-- Quick Links -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"  data-aos="fade-right">
             <h6 class="text-uppercase mb-4 font-weight-bold">Quick Links</h6>
             <p><a href="index.html" class="">Home</a></p>
             <p><a href="Plans.html" class="">Plans & Pricing</a></p>
@@ -204,20 +206,20 @@
           <hr class="w-100 clearfix d-md-none" />
   
           <!-- Contact Information -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3"  data-aos="fade-left">
             <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
             <p><i class="fas fa-map-marker-alt mr-3"class="footer-link"></i> Abuja, Nigeria</p>
             <p><i class="fas fa-envelope mr-3"></i> 
-                <a href="mailto:support@bluetel-co.com" class="footer-link">support@bluetel-co.com</a>
-            </p>
-            <p><i class="fas fa-phone mr-3"></i> 
-                <a href="tel:+2348131092222" class="footer-link">+234 8131092222</a>
-            </p>
-            
+              <a href="mailto:support@bluetel-co.com" class="footer-link">support@bluetel-co.com</a>
+          </p>
+          <p><i class="fas fa-phone mr-3"></i> 
+              <a href="tel:+2348131092222" class="footer-link">+234 8131092222</a>
+          </p>
+          
           </div>
   
           <!-- Social Media -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"  data-aos="fade-left">
             <h6 class="text-uppercase mb-4 font-weight-bold">Follow Us</h6>
             <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fab fa-facebook-f"></i></a>
             <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fab fa-x"></i></a>
@@ -251,5 +253,10 @@
 <script src="js/index.js"></script>
 <!--FontAwesome-->
 <script src="https://kit.fontawesome.com/7c73cd64b2.js" crossorigin="anonymous"></script>
+<!-- aos -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
