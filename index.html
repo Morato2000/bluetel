@@ -7,19 +7,21 @@
 <!---Links-->
 <link rel="stylesheet" href="style/style.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <!--==================================================-->
+<!--==================================================-->
 <!----------------- Start Header menu ------------------>
 <!--==================================================-->
 
 <div class="container border-none">
     <header class="fixed-top">
         <nav class="navbar navbar-expand-lg container">
-          <a href="/" class="navbar-brand">
-            <img src="asset/images/logo.png" alt="logo" class="logo">
+          <a href="/" class="navbar-brand d-flex align-items-center">
+            <img data-aos="flip-left" src="asset/images/logo.png" alt="logo" class="logo me-2">
+            <span data-aos="fade-right" class="brand-name fw-bold">Bluetel</span>
           </a>
+          
       
           <!-- Hamburger Button -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,7 +31,7 @@
       
           <!-- Navbar Links -->
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav text-center">
+            <ul data-aos="fade-down" class="navbar-nav text-center">
               <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
               <li class="nav-item"><a href="Plans.html" class="nav-link">Plans</a></li>
               <li class="nav-item"><a href="About.html" class="nav-link">About</a></li>
@@ -47,7 +49,7 @@
           </div>
       
           <!-- Desktop Buttons (hidden on mobile) -->
-          <div class="d-none d-lg-flex">
+          <div data-aos="fade-left" class="d-none d-lg-flex">
             <button type="button" class="btn btn-primary me-2 "><a class="text-white text-decoration-none" href="Login.html">Login</a></button>
             <button type="button" class="btn btn-outline-primary"><a class="text-black text-decoration-none" href="Signup.html">Sign up</a></button>
           </div>
@@ -77,12 +79,12 @@
       <img src="asset/images/hero8.jpg" class="d-block w-100 img-fluid" alt="hero1.png">
       <div class="container-fluid h-100 d-flex align-items-center justify-content-center">
         <div class="carousel-caption text-start introSlide">
-          <h1 class="fs-1 fw-bold text-light">Welcome to Bluetel Communications</h1>
-          <p class="fs-5 text-light d-none d-md-block">
+          <h1 class="fs-1 fw-bold text-light" data-aos="fade-right">Welcome to Bluetel Communications</h1>
+          <p class="fs-5 text-light d-none d-md-block" >
             🌐 Get the best in high-speed internet! Bluetel offers unlimited data plans with top performance.<br>
             Connect like never before—unlimited, reliable, and built for your needs.
           </p>
-          <p><a class="btn btn-lg btn-primary btn-md btn-sm" href="#">👉 Sign up today!</a></p>
+          <p><a class="btn btn-lg btn-primary" href="#"> Sign up today!</a></p>
         </div>
       </div>
     </div>
@@ -91,11 +93,11 @@
       <img src="asset/images/hero2.jpg" class="d-block w-100 img-fluid" alt="">
       <div class="container-fluid h-100 d-flex align-items-center justify-content-center">
         <div class="carousel-caption">
-          <h1 class="fs-1 fw-bold text-light">Seamless Connectivity Everywhere</h1>
-          <p class="fs-5 text-light d-none d-md-block">
+          <h1 class="fs-1 fw-bold text-light" data-aos="fade-right">Seamless Connectivity Everywhere</h1>
+          <p class="fs-5 text-light d-none d-md-block" data-aos="zoom-in">
             📶 Stay connected wherever you go with Bluetel's unlimited, secure internet access.
           </p>
-          <p><a class="btn btn-lg btn-primary btn-md btn-sm" href="#">👉 Learn more!</a></p>
+          <p><a class="btn btn-lg btn-primary" href="#"> Learn more!</a></p>
         </div>
       </div>
     </div>
@@ -104,11 +106,11 @@
       <img src="asset/images/hero3.jpg" class="d-block w-100 img-fluid" alt="">
       <div class="container-fluid h-100 d-flex align-items-center justify-content-center">
         <div class="carousel-caption">
-          <h1 class="fs-1 fw-bold text-light">Affordable Plans, Unlimited Potential</h1>
-          <p class="fs-5 text-light d-none d-md-block">
+          <h1 class="fs-1 fw-bold text-light" data-aos="fade-right">Affordable Plans, Unlimited Potential</h1>
+          <p class="fs-5 text-light d-none d-md-block" data-aos="zoom-in">
             💰 Choose from affordable, flexible plans for streaming, gaming, or remote work.
           </p>
-          <p><a class="btn btn-lg btn-primary btn-md btn-sm" href="#">👉 Learn more!</a></p>
+          <p><a class="btn btn-lg btn-primary" href="#"> Learn more!</a></p>
         </div>
       </div>
     </div>
@@ -117,11 +119,11 @@
       <img src="asset/images/hero5.jpg" class="d-block w-100 img-fluid" alt="">
       <div class="container-fluid h-100 d-flex align-items-center justify-content-center">
         <div class="carousel-caption text-end">
-          <h1 class="fs-1 fw-bold text-light">24/7 Customer-Centric Support</h1>
-          <p class="fs-5 text-light d-none d-md-block">
+          <h1 class="fs-1 fw-bold text-light" data-aos="fade-right">24/7 Customer-Centric Support</h1>
+          <p class="fs-5 text-light d-none d-md-block" data-aos="zoom-in">
             📞 Get round-the-clock support, easy installations, and customized internet solutions.
           </p>
-          <p><a class="btn btn-lg btn-primary btn-md btn-sm" href="#">👉 Browse our services!</a></p>
+          <p><a class="btn btn-lg btn-primary" href="#"> Browse our services!</a></p>
         </div>
       </div>
     </div>
@@ -148,12 +150,12 @@
 
 <section id="services" class="py-3 bg-light">
   <div class="container text-center service">
-    <h2 class="mb-4">Our Services</h2>
+    <h2 class="mb-4" data-aos="fade-right">Our Services</h2>
     <p class="mb-5">Reliable, high-speed internet solutions tailored for your needs.</p>
 
     <div class="row">
       <!-- Service 1 -->
-      <div class="col-md-3 mb-4">
+      <div class="col-md-3 mb-4" data-aos="fade-up">
         <div class="service-box p-4 shadow-sm rounded bg-white">
           <i class="fa-solid fa-house"></i>
           <h4>Home WiFi</h4>
@@ -162,7 +164,7 @@
       </div>
 
       <!-- Service 2 -->
-      <div class="col-md-3 mb-4">
+      <div class="col-md-3 mb-4" data-aos="fade-up">
         <div class="service-box p-4 shadow-sm rounded bg-white">
           <i class="fa-solid fa-building"></i>
           <h4>Business Internet</h4>
@@ -171,7 +173,7 @@
       </div>
 
       <!-- Service 3 -->
-      <div class="col-md-3 mb-4">
+      <div class="col-md-3 mb-4" data-aos="fade-up">
         <div class="service-box p-4 shadow-sm rounded bg-white">
           <i class="fa-solid fa-wifi"></i>
           <h4>WiFi Hotspot</h4>
@@ -180,7 +182,7 @@
       </div>
 
       <!-- Service 4 -->
-      <div class="col-md-3 mb-4">
+      <div class="col-md-3 mb-4" data-aos="fade-up">
         <div class="service-box p-4 shadow-sm rounded bg-white">
           <i class="fa-solid fa-globe"></i>
           <h4>Broad bandwidth</h4>
@@ -201,8 +203,8 @@
 <!--==================================================-->
 
 <div class="container py-5">
-  <h2 class="text-center mb-4">Our Plans</h2>
-  <div class="row justify-content-center g-4">
+  <h2 class="text-center mb-4 fw-bold" data-aos="fade-right">Our Plans</h2>
+  <div class="row justify-content-center g-4" data-aos="fade-up">
       <div class="col-md-4">
           <div class="pricing-card card h-100 p-4">
               <div class="card-body text-center">
@@ -266,9 +268,9 @@
 
 
 <!-- Testimonials Wrapper -->
-<section>
-  <h2 class="test-title">Our Testimonials</h2>
-  <div id="testimonialSlider" class="testimonial-slider text-center">
+<section class="bg-light">
+  <h2 class="test-title fw-bold" data-aos="fade-right">Our Testimonials</h2>
+  <div id="testimonialSlider" class="testimonial-slider text-center" data-aos="zoom-in">
     
     <div class="testimonial-content">
       
@@ -371,6 +373,67 @@
 <!--==================================================-->
 
 
+<!--==================================================-->
+<!-----------Start Blog ------------------>
+<!--==================================================-->
+
+
+<section class="py-5 bg-primary text-white text-center">
+  <div class="container" data-aos="flip-left">
+      <h1 class="fw-bold">Bluetel News & Updates</h1>
+      <p class="lead">Stay informed on our latest network improvements, internet tips, and security advice.</p>
+  </div>
+</section>
+
+<!-- Blog Content -->
+<div class="container my-5">
+      <!-- Main Blog Posts -->
+      <div class="col-lg-12">
+          <!-- Featured Blog Post -->
+          <div class="blog-card mb-4" data-aos="fade-right">
+              <img src="asset/images/about1.jpg" alt="Network Upgrade">
+              <div class="blog-content">
+                  <h2 class="blog-title">🚀 Major Network Upgrade for Faster Speeds!</h2>
+                  <p class="blog-meta"><i class="far fa-calendar-alt"></i> February 2025 | <i class="fas fa-tags"></i> Network Updates</p>
+                  <p>We have enhanced our network infrastructure to provide you with even faster and more reliable internet. Learn more about what's changing.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+          </div>
+
+          <!-- Other Blog Posts -->
+          <div class="row">
+              <div class="col-md-6 mb-4" data-aos="fade-right">
+                  <div class="blog-card">
+                      <img src="asset/images/security.jpg" alt="Internet Security Tips">
+                      <div class="blog-content">
+                          <h3 class="blog-title">🔒 Top 5 Internet Security Tips</h3>
+                          <p class="blog-meta"><i class="far fa-calendar-alt"></i> February 2025 | <i class="fas fa-tags"></i> Security</p>
+                          <p>Protect yourself from cyber threats with these essential security tips.</p>
+                          <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-6 mb-4" data-aos="fade-left">
+                  <div class="blog-card">
+                      <img src="asset/images/blog2.jpg" alt="Improve WiFi Speed">
+                      <div class="blog-content">
+                          <h3 class="blog-title">📶 How to Improve Your WiFi Speed</h3>
+                          <p class="blog-meta"><i class="far fa-calendar-alt"></i> February 2025 | <i class="fas fa-tags"></i> Internet Tips</p>
+                          <p>Experiencing slow internet? Here are simple ways to boost your WiFi speed.</p>
+                          <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+
+
+<!--==================================================-->
+<!----------- End Blog ------------------>
+<!--==================================================-->
+
 
 
 <!--==================================================-->
@@ -388,7 +451,7 @@
         <!--Grid row-->
         <div class="row">
           <!-- Company Info -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" data-aos="fade-right">
             <h6 class="text-uppercase mb-4 font-weight-bold">Bluetel Communications</h6>
             <p>Providing reliable, high-speed internet with top-notch customer support. Stay connected with Bluetel Communications.</p>
           </div>
@@ -396,7 +459,7 @@
           <hr class="w-100 clearfix d-md-none" />
   
           <!-- Quick Links -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"  data-aos="fade-right">
             <h6 class="text-uppercase mb-4 font-weight-bold">Quick Links</h6>
             <p><a href="index.html" class="">Home</a></p>
             <p><a href="Plans.html" class="">Plans & Pricing</a></p>
@@ -406,7 +469,7 @@
           <hr class="w-100 clearfix d-md-none" />
   
           <!-- Contact Information -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3"  data-aos="fade-left">
             <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
             <p><i class="fas fa-map-marker-alt mr-3"class="footer-link"></i> Abuja, Nigeria</p>
             <p><i class="fas fa-envelope mr-3"></i> 
@@ -419,7 +482,7 @@
           </div>
   
           <!-- Social Media -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"  data-aos="fade-left">
             <h6 class="text-uppercase mb-4 font-weight-bold">Follow Us</h6>
             <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fab fa-facebook-f"></i></a>
             <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fab fa-x"></i></a>
@@ -453,5 +516,10 @@
 <script src="js/index.js"></script>
 <!--FontAwesome-->
 <script src="https://kit.fontawesome.com/7c73cd64b2.js" crossorigin="anonymous"></script>
+<!-- aos -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
